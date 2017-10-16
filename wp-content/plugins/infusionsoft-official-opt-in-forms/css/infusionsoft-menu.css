@@ -1,0 +1,7 @@
+#adminmenu #toplevel_page_inf_infusionsoft_options div.wp-menu-image:before {
+	content: url('../images/sidebar-logo.png');
+}
+
+#adminmenu #toplevel_page_inf_infusionsoft_options.wp-menu-open div.wp-menu-image:before {
+	content: url('../images/sidebar-logo-mono.png');
+}

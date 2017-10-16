@@ -1,0 +1,1658 @@
+# Copyright (C) 2016 Infusionsoft
+# This file is distributed under the same license as the Infusionsoft package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Infusionsoft 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/infusionsoft\n"
+"POT-Creation-Date: 2016-09-23 13:05-0700\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2016-09-23 14:34-0700\n"
+"Language-Team: \n"
+"X-Generator: Poedit 1.8.9\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: es_ES\n"
+
+#: dashboard/dashboard.php:36
+msgid "Save Changes"
+msgstr "Guardar cambios"
+
+#: dashboard/dashboard.php:259
+msgid "Ok"
+msgstr "Ok"
+
+#: dashboard/dashboard.php:362
+msgid "No results found"
+msgstr "No se han encontrado resultados"
+
+#: dashboard/dashboard.php:588
+msgid "Please select social networks in \"Social Sharing / Networks\" settings"
+msgstr "Por favor, seleccione netoworks sociales en los ajustes"
+
+#: dashboard/dashboard.php:933
+msgid " ( post )"
+msgstr ""
+
+#: dashboard/dashboard.php:989
+msgid "Automatically Check Categories Created In Future"
+msgstr "Comprobar automáticamente Categorías creado en futuro"
+
+#: dashboard/dashboard.php:1118
+msgid "Note:"
+msgstr "Nota:"
+
+#: dashboard/dashboard.php:1232 infusionsoft.php:1778 infusionsoft.php:2301
+msgid "Re-Authorize"
+msgstr "Volver a autorizar"
+
+#: dashboard/dashboard.php:1340
+msgid "You can either export your Infusionsoft settings or import settings from another install below."
+msgstr "Usted puede exportar el Infusionsoft ajustes o importe la configuración de otra instalación abajo."
+
+#: dashboard/dashboard.php:1341
+msgid "Export Infusionsoft settings"
+msgstr "Exporte Infusionsoft ajustes"
+
+#: dashboard/dashboard.php:1342
+msgid ""
+"Export the plugin settings for this site as a .json file. This allows you to "
+"easily import the configuration into another site."
+msgstr ""
+"Exportar la configuración del plugin para este sitio como un archivo .json. "
+"Esto le permite importar fácilmente la configuración en otro sitio."
+
+#: dashboard/dashboard.php:1348
+msgid "Export"
+msgstr "Exporte"
+
+#: dashboard/dashboard.php:1359
+msgid "Import Infusionsoft Settings"
+msgstr "Importe Infusionsoft Ajustes"
+
+#: dashboard/dashboard.php:1360
+msgid ""
+"Import the plugin settings from a .json file. This file can be obtained by "
+"exporting the settings on another site using the form above."
+msgstr ""
+"Importar la configuración del plugin desde un archivo .json. Este archivo se "
+"puede obtener mediante la exportación de la configuración en otro sitio "
+"utilizando el formulario de arriba."
+
+#: dashboard/dashboard.php:1368
+msgid "Import"
+msgstr "Importe"
+
+#: dashboard/dashboard.php:1467
+msgid "Please select .json file for import"
+msgstr "Por favor, seleccione el archivo .json para la importación"
+
+#: dashboard/dashboard.php:1472
+msgid "Please provide valid .json file"
+msgstr "Por favor, proporcione archivo .json válida"
+
+#: dashboard/dashboard.php:1486
+msgid "Options imported successfully."
+msgstr "Opciones importan correctamente."
+
+#: dashboard/includes/options.php:10
+msgid "Opt-In Configuration"
+msgstr "Configuración de aceptación"
+
+#: dashboard/includes/options.php:12
+msgid "Setup"
+msgstr "Preparar"
+
+#: dashboard/includes/options.php:13
+msgid "Premade Layouts"
+msgstr "Diseños prefabricados"
+
+#: dashboard/includes/options.php:14
+msgid "Design"
+msgstr "Diseño"
+
+#: dashboard/includes/options.php:15
+msgid "Display Settings"
+msgstr "Configuración de pantalla"
+
+#: dashboard/includes/options.php:20 dashboard/includes/options.php:1233
+msgid "Opt-In Stats"
+msgstr "Estadísticas de aceptación"
+
+#: dashboard/includes/options.php:21
+msgid "Accounts settings"
+msgstr "Configuración de cuentas"
+
+#: dashboard/includes/options.php:22 infusionsoft.php:257
+msgid "Import & Export"
+msgstr "Importar y Exportar"
+
+#: dashboard/includes/options.php:23 dashboard/includes/options.php:1228
+msgid "Home"
+msgstr "Inicio"
+
+#: dashboard/includes/options.php:24 dashboard/includes/options.php:1246
+msgid "Edit Account"
+msgstr "Editar cuenta"
+
+#: dashboard/includes/options.php:25 dashboard/includes/options.php:1242
+msgid "Help and Support"
+msgstr "Ayuda y apoyo"
+
+#: dashboard/includes/options.php:51
+#: includes/classes/integrations/class.infusionsoft-activecampaign.php:36
+#: includes/classes/integrations/class.infusionsoft-campaign_monitor.php:28
+#: includes/classes/integrations/class.infusionsoft-constant_contact.php:36
+#: includes/classes/integrations/class.infusionsoft-convertkit.php:42
+#: includes/classes/integrations/class.infusionsoft-emma.php:42
+#: includes/classes/integrations/class.infusionsoft-feedblitz.php:28
+#: includes/classes/integrations/class.infusionsoft-getresponse.php:27
+#: includes/classes/integrations/class.infusionsoft-hubspot-standard.php:33
+#: includes/classes/integrations/class.infusionsoft-hubspot.php:28
+#: includes/classes/integrations/class.infusionsoft-icontact.php:43
+#: includes/classes/integrations/class.infusionsoft-infusionsoft.php:35
+#: includes/classes/integrations/class.infusionsoft-madmimi.php:34
+#: includes/classes/integrations/class.infusionsoft-mailchimp.php:26
+#: includes/classes/integrations/class.infusionsoft-ontraport.php:35
+#: includes/classes/integrations/class.infusionsoft-salesforce.php:69
+#: includes/classes/integrations/class.infusionsoft-sendinblue.php:29
+msgid "Click here for more information"
+msgstr "Haga clic aquí para mas información"
+
+#: dashboard/includes/options.php:59
+msgid "Opt-In Form Name"
+msgstr "Nombre del formulario de aceptación"
+
+#: dashboard/includes/options.php:60
+msgid ""
+"This name is used to identify your form in the ACTIVE OPT-INS dashboard "
+"screen. It won’t appear on the form itself."
+msgstr ""
+"Este nombre se utiliza para identificar su forma en el pantalla activo tablero de mandos."
+"No aparecerá en el propio formulario."
+
+#: dashboard/includes/options.php:67 dashboard/includes/options.php:68
+msgid "Enter Opt-In Form Name"
+msgstr "Introduzca nombre del forma"
+
+#: dashboard/includes/options.php:76
+msgid "Connect Your Email Service Provider"
+msgstr ""
+
+#: dashboard/includes/options.php:81
+msgid "Message and Link Only"
+msgstr "Mensaje y enlace únicamente"
+
+#: dashboard/includes/options.php:85
+msgid "Select this if you do not want your banner to include an email opt-in."
+msgstr "Seleccione esta opción si no desea que su banner para incluir un correo electrónico opt-in."
+
+#: dashboard/includes/options.php:91
+msgid "Select Email Provider"
+msgstr ""
+
+#: dashboard/includes/options.php:101 infusionsoft.php:3300
+msgid "Select Account"
+msgstr "Seleccione cuenta"
+
+#: dashboard/includes/options.php:104 dashboard/includes/options.php:115
+#: dashboard/includes/options_config.php:35 infusionsoft.php:3301
+#: infusionsoft.php:3432
+msgid "Select One..."
+msgstr "Seleccione uno..."
+
+#: dashboard/includes/options.php:105 infusionsoft.php:3304 infusionsoft.php:3329
+msgid "Add Account"
+msgstr "Añadir cuenta"
+
+#: dashboard/includes/options.php:112 infusionsoft.php:3431
+msgid "Select A Tag"
+msgstr "Seleccione una etiqueta"
+
+#: dashboard/includes/options.php:125
+msgid "Insert HTML"
+msgstr "Insertar HTML"
+
+#: dashboard/includes/options.php:132
+msgid "Disable Double Optin"
+msgstr "Desactivar Doble Optin"
+
+#: dashboard/includes/options.php:137
+msgid "Abusing this feature may cause your Mailchimp account to be suspended."
+msgstr ""
+
+#: dashboard/includes/options.php:141
+msgid "Center Webhook Url"
+msgstr ""
+
+#: dashboard/includes/options.php:146
+msgid ""
+"Requires a <a href=\"https://center.io\" target=\"_blank\">Center Account</a>"
+msgstr ""
+
+#: dashboard/includes/options.php:150
+msgid "Connect Center"
+msgstr ""
+
+#: dashboard/includes/options.php:158
+msgid "Opt-In title"
+msgstr ""
+
+#: dashboard/includes/options.php:159
+msgid "No title will appear if left blank"
+msgstr ""
+
+#: dashboard/includes/options.php:168 dashboard/includes/options.php:187
+msgid "Insert Text"
+msgstr ""
+
+#: dashboard/includes/options.php:169
+msgid "Subscribe To Our Newsletter"
+msgstr ""
+
+#: dashboard/includes/options.php:178
+msgid "Opt-In message"
+msgstr ""
+
+#: dashboard/includes/options.php:179
+msgid "No message will appear if left blank"
+msgstr ""
+
+#: dashboard/includes/options.php:188
+msgid ""
+"Join our mailing list to receive the latest news and updates from our team."
+msgstr ""
+
+#: dashboard/includes/options.php:197
+msgid "Image Settings"
+msgstr ""
+
+#: dashboard/includes/options.php:202 dashboard/includes/options.php:218
+msgid "Image Orientation"
+msgstr ""
+
+#: dashboard/includes/options.php:205 dashboard/includes/options.php:221
+msgid "No Image"
+msgstr ""
+
+#: dashboard/includes/options.php:206 dashboard/includes/options.php:222
+msgid "Image Above Text"
+msgstr ""
+
+#: dashboard/includes/options.php:207 dashboard/includes/options.php:223
+msgid "Image Below Text"
+msgstr ""
+
+#: dashboard/includes/options.php:208
+msgid "Image Right of Text"
+msgstr ""
+
+#: dashboard/includes/options.php:209
+msgid "Image Left of Text"
+msgstr ""
+
+#: dashboard/includes/options.php:241
+msgid "Image URL"
+msgstr ""
+
+#: dashboard/includes/options.php:244
+msgid "Upload an Image"
+msgstr ""
+
+#: dashboard/includes/options.php:245
+msgid "Choose an Opt-In Image"
+msgstr ""
+
+#: dashboard/includes/options.php:246
+msgid "Set as Opt-In Image"
+msgstr ""
+
+#: dashboard/includes/options.php:251
+msgid "Image Load-In Animation"
+msgstr ""
+
+#: dashboard/includes/options.php:254 dashboard/includes/options.php:782
+msgid "No Animation"
+msgstr ""
+
+#: dashboard/includes/options.php:255 dashboard/includes/options.php:783
+msgid "Fade In"
+msgstr ""
+
+#: dashboard/includes/options.php:256 dashboard/includes/options.php:784
+msgid "Slide Right"
+msgstr ""
+
+#: dashboard/includes/options.php:257 dashboard/includes/options.php:786
+msgid "Slide Down"
+msgstr ""
+
+#: dashboard/includes/options.php:258 dashboard/includes/options.php:785
+msgid "Slide Up"
+msgstr ""
+
+#: dashboard/includes/options.php:259 dashboard/includes/options.php:787
+msgid "Light Speed"
+msgstr ""
+
+#: dashboard/includes/options.php:260 dashboard/includes/options.php:788
+msgid "Zoom In"
+msgstr ""
+
+#: dashboard/includes/options.php:261 dashboard/includes/options.php:789
+msgid "Flip"
+msgstr ""
+
+#: dashboard/includes/options.php:262 dashboard/includes/options.php:790
+msgid "Bounce"
+msgstr ""
+
+#: dashboard/includes/options.php:263 dashboard/includes/options.php:791
+msgid "Swing"
+msgstr ""
+
+#: dashboard/includes/options.php:264 dashboard/includes/options.php:792
+msgid "Tada!"
+msgstr ""
+
+#: dashboard/includes/options.php:266
+msgid "Define the animation that is used to load the image"
+msgstr ""
+
+#: dashboard/includes/options.php:272
+msgid "Hide image on mobile"
+msgstr ""
+
+#: dashboard/includes/options.php:281
+msgid "Form setup"
+msgstr ""
+
+#: dashboard/includes/options.php:285
+msgid "Display button as link"
+msgstr ""
+
+#: dashboard/includes/options.php:293
+msgid "Form Orientation"
+msgstr ""
+
+#: dashboard/includes/options.php:296
+msgid "Form On Right"
+msgstr ""
+
+#: dashboard/includes/options.php:297
+msgid "Form On Left"
+msgstr ""
+
+#: dashboard/includes/options.php:298
+msgid "Form On Bottom"
+msgstr ""
+
+#: dashboard/includes/options.php:306
+msgid "Display Name Field"
+msgstr ""
+
+#: dashboard/includes/options.php:319
+msgid "Redirect Url"
+msgstr ""
+
+#: dashboard/includes/options.php:320 dashboard/includes/options.php:727
+msgid "http://example.com"
+msgstr ""
+
+#: dashboard/includes/options.php:328 dashboard/includes/options.php:743
+msgid "Redirect Type"
+msgstr ""
+
+#: dashboard/includes/options.php:331 dashboard/includes/options.php:746
+msgid "Current Window"
+msgstr ""
+
+#: dashboard/includes/options.php:332 dashboard/includes/options.php:747
+msgid "New Tab"
+msgstr ""
+
+#: dashboard/includes/options.php:333 dashboard/includes/options.php:748
+msgid "New Window"
+msgstr ""
+
+#: dashboard/includes/options.php:342
+msgid "Select opt-in to open"
+msgstr ""
+
+#: dashboard/includes/options.php:348
+msgid ""
+"If selected, redirect will not happen. Will only display popup or flyin "
+"forms that are selected to show on everything."
+msgstr ""
+
+#: dashboard/includes/options.php:352
+msgid "Name Field(s)"
+msgstr ""
+
+#: dashboard/includes/options.php:356
+msgid "No Name Field"
+msgstr ""
+
+#: dashboard/includes/options.php:357
+msgid "Single Name Field"
+msgstr ""
+
+#: dashboard/includes/options.php:358
+msgid "First + Last Name Fields"
+msgstr ""
+
+#: dashboard/includes/options.php:370 dashboard/includes/options.php:382
+msgid "Name Text"
+msgstr ""
+
+#: dashboard/includes/options.php:371
+#: includes/ext/infusionsoft_infusionbar/class.infusionsoft_infusionbar.php:171
+#: infusionsoft.php:3932
+msgid "First Name"
+msgstr ""
+
+#: dashboard/includes/options.php:383
+#: includes/ext/infusionsoft_infusionbar/class.infusionsoft_infusionbar.php:177
+#: infusionsoft.php:3938
+msgid "Name"
+msgstr ""
+
+#: dashboard/includes/options.php:394
+msgid "Last Name Text"
+msgstr ""
+
+#: dashboard/includes/options.php:395
+#: includes/ext/infusionsoft_infusionbar/class.infusionsoft_infusionbar.php:183
+#: infusionsoft.php:3944
+msgid "Last Name"
+msgstr ""
+
+#: dashboard/includes/options.php:406
+msgid "Email Text"
+msgstr ""
+
+#: dashboard/includes/options.php:407
+#: includes/ext/infusionsoft_infusionbar/class.infusionsoft_infusionbar.php:159
+#: infusionsoft.php:3920
+msgid "Email"
+msgstr ""
+
+#: dashboard/includes/options.php:415
+msgid "Optin Consent"
+msgstr ""
+
+#: dashboard/includes/options.php:428
+msgid "Consent Text"
+msgstr ""
+
+#: dashboard/includes/options.php:429 dashboard/includes/options.php:430
+msgid "Yes, I consent to receiving direct marketing from this website."
+msgstr ""
+
+#: dashboard/includes/options.php:437
+msgid "Conesent Text Color"
+msgstr ""
+
+#: dashboard/includes/options.php:440 dashboard/includes/options.php:501
+#: dashboard/includes/options.php:567 dashboard/includes/options.php:620
+#: dashboard/includes/options.php:629
+msgid "Hex Value"
+msgstr ""
+
+#: dashboard/includes/options.php:450
+msgid "Consent Error Text"
+msgstr ""
+
+#: dashboard/includes/options.php:451 dashboard/includes/options.php:452
+msgid "Please provide consent."
+msgstr ""
+
+#: dashboard/includes/options.php:462
+msgid "Button Text"
+msgstr ""
+
+#: dashboard/includes/options.php:463
+#: includes/ext/infusionsoft_infusionbar/class.infusionsoft_infusionbar.php:192
+#: infusionsoft.php:3953
+msgid "SUBSCRIBE!"
+msgstr ""
+
+#: dashboard/includes/options.php:470
+msgid "Button Text Color"
+msgstr ""
+
+#: dashboard/includes/options.php:474
+msgid "Light"
+msgstr ""
+
+#: dashboard/includes/options.php:475
+msgid "Dark"
+msgstr ""
+
+#: dashboard/includes/options.php:482
+msgid "Select banner position"
+msgstr ""
+
+#: dashboard/includes/options.php:494
+msgid "Opt-In Styling"
+msgstr ""
+
+#: dashboard/includes/options.php:498
+msgid "Background Color"
+msgstr ""
+
+#: dashboard/includes/options.php:507
+msgid "Header Font"
+msgstr ""
+
+#: dashboard/includes/options.php:514
+msgid "Body Font"
+msgstr ""
+
+#: dashboard/includes/options.php:521
+msgid "Text Color"
+msgstr ""
+
+#: dashboard/includes/options.php:525 dashboard/includes/options.php:609
+msgid "Light Text"
+msgstr ""
+
+#: dashboard/includes/options.php:526 dashboard/includes/options.php:610
+msgid "Dark Text"
+msgstr ""
+
+#: dashboard/includes/options.php:533
+msgid "Corner Style"
+msgstr ""
+
+#: dashboard/includes/options.php:537 dashboard/includes/options.php:597
+msgid "Squared Corners"
+msgstr ""
+
+#: dashboard/includes/options.php:538 dashboard/includes/options.php:598
+msgid "Rounded Corners"
+msgstr ""
+
+#: dashboard/includes/options.php:545
+msgid "Border Orientation"
+msgstr ""
+
+#: dashboard/includes/options.php:549
+msgid "No Border"
+msgstr ""
+
+#: dashboard/includes/options.php:550
+msgid "Full Border"
+msgstr ""
+
+#: dashboard/includes/options.php:551
+msgid "Top Border"
+msgstr ""
+
+#: dashboard/includes/options.php:552
+msgid "Right Border"
+msgstr ""
+
+#: dashboard/includes/options.php:553
+msgid "Bottom Border"
+msgstr ""
+
+#: dashboard/includes/options.php:554
+msgid "Left Border"
+msgstr ""
+
+#: dashboard/includes/options.php:555
+msgid "Top + Bottom Border"
+msgstr ""
+
+#: dashboard/includes/options.php:556
+msgid "Left + Right Border"
+msgstr ""
+
+#: dashboard/includes/options.php:564
+msgid "Border Color"
+msgstr ""
+
+#: dashboard/includes/options.php:577
+msgid "Form Styling"
+msgstr ""
+
+#: dashboard/includes/options.php:581
+msgid "Form Field Orientation"
+msgstr ""
+
+#: dashboard/includes/options.php:584
+msgid "Stacked Form Fields"
+msgstr ""
+
+#: dashboard/includes/options.php:585
+msgid "Inline Form Fields"
+msgstr ""
+
+#: dashboard/includes/options.php:593
+msgid "Form Field Corner Style"
+msgstr ""
+
+#: dashboard/includes/options.php:605
+msgid "Form Text Color"
+msgstr ""
+
+#: dashboard/includes/options.php:617
+msgid "Form Background Color"
+msgstr ""
+
+#: dashboard/includes/options.php:626
+msgid "Button Color"
+msgstr ""
+
+#: dashboard/includes/options.php:637
+msgid "Choose form edge style"
+msgstr ""
+
+#: dashboard/includes/options.php:654
+msgid "Choose border style"
+msgstr ""
+
+#: dashboard/includes/options.php:672
+msgid "Form Footer Text"
+msgstr ""
+
+#: dashboard/includes/options.php:680
+msgid "Insert Your Footer Text"
+msgstr ""
+
+#: dashboard/includes/options.php:690
+msgid "Success Message Text"
+msgstr ""
+
+#: dashboard/includes/options.php:697
+msgid "You Have Successfully Subscribed!"
+msgstr ""
+
+#: dashboard/includes/options.php:704
+msgid "Redirect to URL after opt-in"
+msgstr ""
+
+#: dashboard/includes/options.php:717
+msgid "Success Follow-Up"
+msgstr ""
+
+#: dashboard/includes/options.php:726
+msgid "Success follow-Up url"
+msgstr ""
+
+#: dashboard/includes/options.php:735
+msgid "Delay (in seconds) till redirect"
+msgstr ""
+
+#: dashboard/includes/options.php:737
+msgid ""
+"Define how many seconds you want to wait before the redirect window opens."
+msgstr ""
+
+#: dashboard/includes/options.php:758
+msgid "Custom CSS"
+msgstr ""
+
+#: dashboard/includes/options.php:765
+msgid "Insert Your Custom CSS Code"
+msgstr ""
+
+#: dashboard/includes/options.php:774
+msgid "Display and Timing Settings"
+msgstr ""
+
+#: dashboard/includes/options.php:779
+msgid "Intro Animation"
+msgstr ""
+
+#: dashboard/includes/options.php:794
+msgid "Define the animation that is used, when you load the page."
+msgstr ""
+
+#: dashboard/includes/options.php:801
+msgid "Trigger After Time Delay"
+msgstr ""
+
+#: dashboard/includes/options.php:810
+msgid "Delay (in seconds)"
+msgstr ""
+
+#: dashboard/includes/options.php:812
+msgid ""
+"Define how many seconds you want to wait before the pop up appears on the "
+"screen."
+msgstr ""
+
+#: dashboard/includes/options.php:819
+msgid "Trigger After Inactivity"
+msgstr ""
+
+#: dashboard/includes/options.php:829
+msgid "Idle Timeout ( in seconds )"
+msgstr ""
+
+#: dashboard/includes/options.php:831
+msgid ""
+"Define how many seconds user should be inactive before the pop up appears on "
+"screen."
+msgstr ""
+
+#: dashboard/includes/options.php:839
+msgid "Trigger At The Bottom of Post"
+msgstr ""
+
+#: dashboard/includes/options.php:847
+msgid "Trigger After Commenting"
+msgstr ""
+
+#: dashboard/includes/options.php:855
+msgid "Trigger Before Leaving Page"
+msgstr ""
+
+#: dashboard/includes/options.php:863
+msgid "Trigger After Scrolling"
+msgstr ""
+
+#: dashboard/includes/options.php:873
+msgid "Percentage Down The Page"
+msgstr ""
+
+#: dashboard/includes/options.php:875
+msgid ""
+"Define the % of the page to be scrolled before the pop up appears on the "
+"screen."
+msgstr ""
+
+#: dashboard/includes/options.php:883
+msgid "Trigger After Purchasing"
+msgstr ""
+
+#: dashboard/includes/options.php:886
+msgid "Display on \"Thank you\" page of WooCommerce after purchase"
+msgstr ""
+
+#: dashboard/includes/options.php:892
+msgid "Display once per session"
+msgstr ""
+
+#: dashboard/includes/options.php:902
+msgid "Session Duration (in days)"
+msgstr ""
+
+#: dashboard/includes/options.php:904
+msgid ""
+"Define the length of time (in days) that a session lasts for. For example, "
+"if you input 2 a user will only see a popup on your site every two days."
+msgstr ""
+
+#: dashboard/includes/options.php:912
+msgid "Hide on Mobile"
+msgstr ""
+
+#: dashboard/includes/options.php:919
+msgid "Trigger When Element is Clicked"
+msgstr ""
+
+#: dashboard/includes/options.php:921
+msgid ""
+"Adds new onclick shortcode option to Infusionsoft editor when editing a page / "
+"post"
+msgstr ""
+
+#: dashboard/includes/options.php:929
+msgid "Allow user to dismiss"
+msgstr ""
+
+#: dashboard/includes/options.php:930
+msgid "Allows user to close banner by clicking X"
+msgstr ""
+
+#: dashboard/includes/options.php:938
+msgid "Remove on redirect"
+msgstr ""
+
+#: dashboard/includes/options.php:939
+msgid "Close the banner on link click"
+msgstr ""
+
+#: dashboard/includes/options.php:951
+msgid "Fly-In Orientation"
+msgstr ""
+
+#: dashboard/includes/options.php:956
+msgid "Choose Orientation"
+msgstr ""
+
+#: dashboard/includes/options.php:959
+msgid "Right"
+msgstr ""
+
+#: dashboard/includes/options.php:960
+msgid "Left"
+msgstr ""
+
+#: dashboard/includes/options.php:961
+msgid "Center"
+msgstr ""
+
+#: dashboard/includes/options.php:971
+msgid "Display on"
+msgstr ""
+
+#: dashboard/includes/options.php:978
+msgid "Everything"
+msgstr ""
+
+#: dashboard/includes/options.php:979 infusionsoft.php:1214
+msgid "Homepage"
+msgstr ""
+
+#: dashboard/includes/options.php:980
+msgid "Archives"
+msgstr ""
+
+#: dashboard/includes/options.php:981
+msgid "Categories"
+msgstr ""
+
+#: dashboard/includes/options.php:982
+msgid "Tags"
+msgstr ""
+
+#: dashboard/includes/options.php:1009
+msgid "Display on these categories"
+msgstr ""
+
+#: dashboard/includes/options.php:1027
+msgid "Do not display on these pages"
+msgstr ""
+
+#: dashboard/includes/options.php:1036 dashboard/includes/options.php:1055
+msgid "Start Typing Page Name..."
+msgstr ""
+
+#: dashboard/includes/options.php:1045
+msgid "Display on these pages"
+msgstr ""
+
+#: dashboard/includes/options.php:1046
+msgid "Pages defined below will override all settings above"
+msgstr ""
+
+#: dashboard/includes/options.php:1064
+msgid "Do not display on these posts"
+msgstr ""
+
+#: dashboard/includes/options.php:1073 dashboard/includes/options.php:1092
+msgid "Start Typing Post Name..."
+msgstr ""
+
+#: dashboard/includes/options.php:1082
+msgid "Display on these posts"
+msgstr ""
+
+#: dashboard/includes/options.php:1083
+msgid "Posts defined below will override all settings above"
+msgstr ""
+
+#: dashboard/includes/options.php:1101
+msgid "Setup your accounts"
+msgstr ""
+
+#: dashboard/includes/options.php:1107
+msgid "MailChimp"
+msgstr ""
+
+#: dashboard/includes/options.php:1114
+msgid "MailChimp API Key"
+msgstr ""
+
+#: dashboard/includes/options.php:1124 dashboard/includes/options.php:1151
+#: infusionsoft.php:1723 infusionsoft.php:2300
+msgid "Authorize"
+msgstr ""
+
+#: dashboard/includes/options.php:1134
+msgid "AWeber"
+msgstr ""
+
+#: dashboard/includes/options.php:1141
+msgid "AWeber authorization code"
+msgstr ""
+
+#: dashboard/includes/options.php:1203
+msgid "Step 1: Name and Connect Your Form"
+msgstr "Paso 1: Nombre y conectar el Formulario"
+
+#: dashboard/includes/options.php:1204
+msgid "Create and publish your new opt-in form in just 4 steps."
+msgstr ""
+
+#: dashboard/includes/options.php:1205
+msgid ""
+"Give your opt-in form a name, then connect it with your Email Service "
+"Provider for building your email list."
+msgstr ""
+
+#: dashboard/includes/options.php:1209
+msgid "Step 3: Customize Your Form Template"
+msgstr ""
+
+#: dashboard/includes/options.php:1210
+msgid ""
+"This is your 3rd step in creating your new opt-in form. In this step, you’ll "
+"enter the text you want to appear on your form, make style, color and image "
+"choices, and more."
+msgstr ""
+
+#: dashboard/includes/options.php:1211
+msgid ""
+"Customizing your form is easy, and you can see how it looks as you go by "
+"clicking the blue preview button."
+msgstr ""
+
+#: dashboard/includes/options.php:1217
+msgid "Step 4: Select When and Where Your Form Appears"
+msgstr ""
+
+#: dashboard/includes/options.php:1218
+msgid ""
+"In this final step you can choose a variety of triggers for when your opt-in "
+"form displays, and where you want it to show up."
+msgstr ""
+
+#: dashboard/includes/options.php:1223
+msgid "Import/Export"
+msgstr "Importar/Exportar"
+
+#: dashboard/includes/options.php:1238
+msgid "Accounts"
+msgstr ""
+
+#: dashboard/includes/options.php:1251 infusionsoft.php:655
+msgid "Preview"
+msgstr ""
+
+#: dashboard/includes/options.php:1256
+msgid "Step 2: Select a Template To Customize"
+msgstr ""
+
+#: dashboard/includes/options.php:1257
+msgid ""
+"Choose a template that best represents your basic style preference. Don’t "
+"worry if you can’t find the exact color or image. You’ll be able to "
+"customize these elements to your liking in the next step."
+msgstr ""
+
+#: dashboard/includes/options.php:1262
+msgid "Choose a template"
+msgstr ""
+
+#: includes/classes/integrations/class.infusionsoft-activecampaign.php:30
+msgid "API URL"
+msgstr ""
+
+#: includes/classes/integrations/class.infusionsoft-activecampaign.php:31
+#: includes/classes/integrations/class.infusionsoft-drip.php:31
+#: includes/classes/integrations/class.infusionsoft-infusionsoft.php:29
+msgid "API Key"
+msgstr ""
+
+#: includes/classes/integrations/class.infusionsoft-aweber.php:24
+msgid ""
+"Step 1: <a href=\"%1$s\" target=\"_blank\">Generate authorization code</"
+"a><br/>"
+msgstr ""
+
+#: includes/classes/integrations/class.infusionsoft-aweber.php:31
+msgid ""
+"Step 2: Paste in the authorization code and click \"Authorize\" button: "
+msgstr ""
+
+#: includes/classes/integrations/class.infusionsoft-aweber.php:93
+msgid "Aweber: Wrong configuration data"
+msgstr ""
+
+#: includes/classes/integrations/class.infusionsoft-aweber.php:128
+msgid ""
+"Authorization code is invalid. Try regenerating it and paste in the new code."
+msgstr ""
+
+#: includes/classes/integrations/class.infusionsoft-aweber.php:153
+msgid "AWeberAPIException."
+msgstr ""
+
+#: includes/classes/integrations/class.infusionsoft-aweber.php:154
+msgid "Type"
+msgstr ""
+
+#: includes/classes/integrations/class.infusionsoft-aweber.php:155
+msgid "Message"
+msgstr ""
+
+#: includes/classes/integrations/class.infusionsoft-aweber.php:156
+msgid "Documentation"
+msgstr ""
+
+#: includes/classes/integrations/class.infusionsoft-campaign_monitor.php:24
+#: includes/classes/integrations/class.infusionsoft-constant_contact.php:30
+#: includes/classes/integrations/class.infusionsoft-convertkit.php:38
+#: includes/classes/integrations/class.infusionsoft-feedblitz.php:24
+#: includes/classes/integrations/class.infusionsoft-getresponse.php:23
+#: includes/classes/integrations/class.infusionsoft-hubspot-standard.php:28
+#: includes/classes/integrations/class.infusionsoft-hubspot.php:24
+#: includes/classes/integrations/class.infusionsoft-madmimi.php:29
+#: includes/classes/integrations/class.infusionsoft-mailchimp.php:22
+#: includes/classes/integrations/class.infusionsoft-ontraport.php:29
+#: includes/classes/integrations/class.infusionsoft-sendinblue.php:25
+msgid "API key"
+msgstr ""
+
+#: includes/classes/integrations/class.infusionsoft-campaign_monitor.php:52
+#: includes/classes/integrations/class.infusionsoft-getresponse.php:42
+#: includes/classes/integrations/class.infusionsoft-infusionsoft.php:48
+#: includes/classes/integrations/class.infusionsoft-infusionsoft.php:114
+#: includes/classes/integrations/class.infusionsoft-mailchimp.php:48
+#: includes/classes/integrations/class.infusionsoft-ontraport.php:157
+#: includes/classes/integrations/class.infusionsoft-sendinblue.php:44
+#: includes/classes/integrations/class.infusionsoft-sendinblue.php:104
+#: subscription/infusionsoft/class.infusion_infusionsoft.php:127
+#: subscription/infusionsoft/class.infusion_infusionsoft.php:193
+msgid "curl_init is not defined "
+msgstr ""
+
+#: includes/classes/integrations/class.infusionsoft-campaign_monitor.php:102
+#: includes/classes/integrations/class.infusionsoft-mailchimp.php:56
+msgid "invalid API key"
+msgstr ""
+
+#: includes/classes/integrations/class.infusionsoft-constant_contact.php:31
+msgid "Token"
+msgstr ""
+
+#: includes/classes/integrations/class.infusionsoft-constant_contact.php:82
+#: includes/classes/integrations/class.infusionsoft-feedblitz.php:75
+#: includes/classes/integrations/class.infusionsoft-feedblitz.php:112
+#: includes/classes/integrations/class.infusionsoft-icontact.php:208
+msgid "empty response"
+msgstr ""
+
+#: includes/classes/integrations/class.infusionsoft-constant_contact.php:142
+msgid "General Error"
+msgstr ""
+
+#: includes/classes/integrations/class.infusionsoft-drip.php:32
+msgid "Account number"
+msgstr ""
+
+#: includes/classes/integrations/class.infusionsoft-emma.php:34
+msgid "Public API Key"
+msgstr ""
+
+#: includes/classes/integrations/class.infusionsoft-emma.php:35
+msgid "Private API key"
+msgstr ""
+
+#: includes/classes/integrations/class.infusionsoft-emma.php:36
+msgid "Account ID"
+msgstr ""
+
+#: includes/classes/integrations/class.infusionsoft-feedblitz.php:71
+#: includes/classes/integrations/class.infusionsoft-feedblitz.php:109
+#: includes/classes/integrations/class.infusionsoft-sendinblue.php:131
+msgid "Unknown error"
+msgstr ""
+
+#: includes/classes/integrations/class.infusionsoft-getresponse.php:72
+#: includes/classes/integrations/class.infusionsoft-sendinblue.php:91
+msgid "Invalid API key or something went wrong during Authorization request"
+msgstr ""
+
+#: includes/classes/integrations/class.infusionsoft-hubspot-standard.php:27
+msgid "Account Id"
+msgstr ""
+
+#: includes/classes/integrations/class.infusionsoft-icontact.php:35
+msgid "App ID"
+msgstr ""
+
+#: includes/classes/integrations/class.infusionsoft-icontact.php:36
+#: includes/classes/integrations/class.infusionsoft-madmimi.php:28
+msgid "Username"
+msgstr ""
+
+#: includes/classes/integrations/class.infusionsoft-icontact.php:37
+msgid "Password"
+msgstr ""
+
+#: includes/classes/integrations/class.infusionsoft-icontact.php:108
+msgid "Account ID is not defined"
+msgstr ""
+
+#: includes/classes/integrations/class.infusionsoft-infusionsoft.php:30
+msgid "Application name"
+msgstr ""
+
+#: includes/classes/integrations/class.infusionsoft-madmimi.php:73
+msgid "Please make sure you have at least 1 list in your account and try again"
+msgstr ""
+
+#: includes/classes/integrations/class.infusionsoft-madmimi.php:113
+msgid "Invalid Username or API key"
+msgstr ""
+
+#: includes/classes/integrations/class.infusionsoft-madmimi.php:126
+#: includes/classes/integrations/class.infusionsoft-sendinblue.php:135
+msgid "Already subscribed"
+msgstr ""
+
+#: includes/classes/integrations/class.infusionsoft-mailchimp.php:123
+msgid "Additional Information: "
+msgstr ""
+
+#: includes/classes/integrations/class.infusionsoft-mailpoet.php:33
+#: includes/classes/integrations/class.infusionsoft-mailpoet.php:73
+msgid "MailPoet plugin is not installed or not activated"
+msgstr ""
+
+#: includes/classes/integrations/class.infusionsoft-mailpoet.php:97
+msgid "Already Subscribed"
+msgstr ""
+
+#: includes/classes/integrations/class.infusionsoft-ontraport.php:30
+msgid "APP ID"
+msgstr ""
+
+#: includes/classes/integrations/class.infusionsoft-ontraport.php:146
+msgid "Error occured during subscription"
+msgstr ""
+
+#: includes/classes/integrations/class.infusionsoft-salesforce.php:53
+msgid "Instance Number"
+msgstr ""
+
+#: includes/classes/integrations/class.infusionsoft-salesforce.php:54
+msgid "Salesforce version #"
+msgstr ""
+
+#: includes/classes/integrations/class.infusionsoft-salesforce.php:55
+msgid "Consumer key"
+msgstr ""
+
+#: includes/classes/integrations/class.infusionsoft-salesforce.php:56
+msgid "Consumer secret"
+msgstr ""
+
+#: includes/classes/integrations/class.infusionsoft-salesforce.php:57
+msgid "Salesforce username"
+msgstr ""
+
+#: includes/classes/integrations/class.infusionsoft-salesforce.php:58
+msgid "Salesforce password"
+msgstr ""
+
+#: includes/classes/integrations/class.infusionsoft-salesforce.php:59
+msgid "Secuirty token"
+msgstr ""
+
+#: includes/classes/integrations/class.infusionsoft-salesforce.php:211
+msgid "Lead could not be added to campaign"
+msgstr ""
+
+#: includes/ext/infusionsoft_infusionbar/class.infusionsoft_infusionbar.php:215
+#: infusionsoft.php:3981
+msgid "You have Successfully Subscribed!"
+msgstr ""
+
+#: includes/infusionsoft-widget.php:12
+msgid "Infusionsoft"
+msgstr ""
+
+#: includes/infusionsoft-widget.php:13
+msgid ""
+"Infusionsoft widget, please configure all the settings in Infusionsoft control "
+"panel"
+msgstr ""
+
+#: includes/infusionsoft-widget.php:56
+msgid "Subscribe"
+msgstr ""
+
+#: includes/infusionsoft-widget.php:68
+msgid "Title"
+msgstr ""
+
+#: includes/infusionsoft-widget.php:90
+msgid "Select Optin"
+msgstr ""
+
+#: includes/infusionsoft_functions.php:35
+msgid ""
+"Your version of php is unsupported. You may notice some features may not "
+"work. Please upgrade to php 5.4 or higher."
+msgstr ""
+
+#: includes/infusionsoft_functions.php:42
+msgid ""
+"Your version of Wordpress is unsupported. You may notice some features may "
+"not work. Please upgrade to WordPress 3.5 or higher."
+msgstr ""
+
+#: includes/updater.php:468
+msgid ""
+"The plugin has been updated, but could not be reactivated. Please reactivate "
+"it manually."
+msgstr ""
+
+#: includes/updater.php:469
+msgid "Plugin reactivated successfully."
+msgstr ""
+
+#: infusionsoft.php:82
+msgid "Save & Exit"
+msgstr "Salir y Guaradar cambios"
+
+#. Plugin Name of the plugin/theme
+#. Author of the plugin/theme
+#: infusionsoft.php:248 infusionsoft.php:249 infusionsoft.php:254
+msgid "Infusionsoft"
+msgstr ""
+
+#: infusionsoft.php:254
+msgid "Optin Forms"
+msgstr "Opt-in Formas"
+
+#: infusionsoft.php:255
+msgid "Email Accounts"
+msgstr "Cuentas de correo electrónico"
+
+#: infusionsoft.php:256
+msgid "Statistics"
+msgstr "Estadísticas"
+
+#: infusionsoft.php:282
+msgid "Settings"
+msgstr ""
+
+#: infusionsoft.php:318
+msgid "Next: Design"
+msgstr "Siguiente: Diseño"
+
+#: infusionsoft.php:325
+msgid "Next: Display Settings"
+msgstr ""
+
+#: infusionsoft.php:332
+msgid "Next: Customize"
+msgstr ""
+
+#: infusionsoft.php:339
+msgid "Generate Shortcode"
+msgstr ""
+
+#: infusionsoft.php:439 infusionsoft.php:445 infusionsoft.php:450
+msgid "No optins available"
+msgstr ""
+
+#: infusionsoft.php:461
+msgid "insert infusionsoft Opt-In"
+msgstr ""
+
+#: infusionsoft.php:462
+msgid "Inline Opt-In"
+msgstr ""
+
+#: infusionsoft.php:463
+msgid "Locked Content Opt-In"
+msgstr ""
+
+#: infusionsoft.php:528
+msgid "New Optin"
+msgstr "Nueva Optin"
+
+#: infusionsoft.php:529
+msgid "Active Opt-Ins"
+msgstr "Activo Opt-Ins"
+
+#: infusionsoft.php:582 infusionsoft.php:2291
+msgid "select optin type to begin"
+msgstr ""
+
+#: infusionsoft.php:583
+msgid "pop up"
+msgstr ""
+
+#: infusionsoft.php:584
+msgid "fly in"
+msgstr ""
+
+#: infusionsoft.php:585
+msgid "below post"
+msgstr ""
+
+#: infusionsoft.php:586
+msgid "inline"
+msgstr ""
+
+#: infusionsoft.php:587
+msgid "locked content"
+msgstr ""
+
+#: infusionsoft.php:588
+msgid "widget"
+msgstr ""
+
+#: infusionsoft.php:589
+msgid "bar"
+msgstr ""
+
+#: infusionsoft.php:602
+msgid "New Account"
+msgstr ""
+
+#: infusionsoft.php:603
+msgid "My Account"
+msgstr ""
+
+#: infusionsoft.php:626 infusionsoft.php:1048
+msgid "Clear Stats"
+msgstr ""
+
+#: infusionsoft.php:627
+msgid "Refresh Stats"
+msgstr ""
+
+#: infusionsoft.php:630
+msgid "Remove all the stats data?"
+msgstr ""
+
+#: infusionsoft.php:631 infusionsoft.php:1968 infusionsoft.php:2137
+#: infusionsoft.php:2207
+msgid "Yes"
+msgstr ""
+
+#: infusionsoft.php:632 infusionsoft.php:1969 infusionsoft.php:2138
+#: infusionsoft.php:2208
+msgid "No"
+msgstr ""
+
+#: infusionsoft.php:859
+msgid "Overview"
+msgstr ""
+
+#: infusionsoft.php:871
+msgid "New sign ups"
+msgstr ""
+
+#: infusionsoft.php:872
+msgid "Last 30 days"
+msgstr ""
+
+#: infusionsoft.php:873
+msgid "Last 12 month"
+msgstr ""
+
+#: infusionsoft.php:956
+msgid "All lists"
+msgstr ""
+
+#: infusionsoft.php:1006 infusionsoft.php:1047 infusionsoft.php:2090
+msgid "Conversion Rate"
+msgstr "Tasa de conversión"
+
+#: infusionsoft.php:1008 infusionsoft.php:1299 infusionsoft.php:1929
+msgid "Subscribers"
+msgstr ""
+
+#: infusionsoft.php:1010
+msgid "Subscriber Growth"
+msgstr ""
+
+#: infusionsoft.php:1011 infusionsoft.php:1341 infusionsoft.php:1356
+#: infusionsoft.php:1993
+msgid "week"
+msgstr ""
+
+#: infusionsoft.php:1044 infusionsoft.php:2087
+msgid "Opt-In Form"
+msgstr "Opt-In Forma"
+
+#: infusionsoft.php:1045 infusionsoft.php:2088
+msgid "Views"
+msgstr "Vista de pagina"
+
+#: infusionsoft.php:1046 infusionsoft.php:2089
+msgid "Opt-Ins"
+msgstr ""
+
+#: infusionsoft.php:1259
+msgid "Highest converting pages"
+msgstr ""
+
+#: infusionsoft.php:1297
+msgid "My Lists"
+msgstr ""
+
+#: infusionsoft.php:1298
+msgid "Provider"
+msgstr ""
+
+#: infusionsoft.php:1300
+msgid "Growth Rate"
+msgstr ""
+
+#: infusionsoft.php:1339 infusionsoft.php:1991
+msgid "n/a"
+msgstr ""
+
+#: infusionsoft.php:1616
+msgid "New Signups"
+msgstr ""
+
+#: infusionsoft.php:1621
+msgid "Per"
+msgstr ""
+
+#: infusionsoft.php:1622
+msgid "Day"
+msgstr ""
+
+#: infusionsoft.php:1622
+msgid "Month"
+msgstr ""
+
+#: infusionsoft.php:1753
+msgid "New Account Setup"
+msgstr ""
+
+#: infusionsoft.php:1755
+msgid "You can view and re-authorize this account’s settings below"
+msgstr ""
+
+#: infusionsoft.php:1756
+msgid "Setup a new email marketing service account below"
+msgstr ""
+
+#: infusionsoft.php:1781
+msgid "Save &amp; Exit"
+msgstr ""
+
+#: infusionsoft.php:1863
+msgid "Account Lists"
+msgstr ""
+
+#: infusionsoft.php:1866
+msgid "No lists available for this account"
+msgstr ""
+
+#: infusionsoft.php:1914
+msgid "Show / Hide"
+msgstr ""
+
+#: infusionsoft.php:1928
+msgid "Account name"
+msgstr ""
+
+#: infusionsoft.php:1930
+msgid "Growth rate"
+msgstr ""
+
+#: infusionsoft.php:1959
+msgid "Update Lists"
+msgstr ""
+
+#: infusionsoft.php:1964
+msgid "Remove account"
+msgstr ""
+
+#: infusionsoft.php:1967
+msgid "Remove this account from list?"
+msgstr ""
+
+#: infusionsoft.php:1973
+msgid "Authorized"
+msgstr ""
+
+#: infusionsoft.php:1974
+msgid "Not Authorized"
+msgstr ""
+
+#: infusionsoft.php:1978
+msgid "Edit account"
+msgstr ""
+
+#: infusionsoft.php:2004
+msgid "No lists available"
+msgstr ""
+
+#: infusionsoft.php:2132 infusionsoft.php:2200
+msgid "Delete Optin"
+msgstr ""
+
+#: infusionsoft.php:2136 infusionsoft.php:2206
+msgid "Delete this optin?"
+msgstr ""
+
+#: infusionsoft.php:2142 infusionsoft.php:2201
+msgid "Edit Optin"
+msgstr ""
+
+#: infusionsoft.php:2155
+msgid "Add variant"
+msgstr ""
+
+#: infusionsoft.php:2156 infusionsoft.php:2303
+msgid "Pause test"
+msgstr ""
+
+#: infusionsoft.php:2156 infusionsoft.php:2304
+msgid "Start test"
+msgstr ""
+
+#: infusionsoft.php:2157
+msgid "End & pick winner"
+msgstr ""
+
+#: infusionsoft.php:2193
+msgid "Generate shortcode"
+msgstr ""
+
+#: infusionsoft.php:2198
+msgid "Make Inactive"
+msgstr ""
+
+#: infusionsoft.php:2198
+msgid "Make Active"
+msgstr ""
+
+#: infusionsoft.php:2199
+msgid "Duplicate"
+msgstr ""
+
+#: infusionsoft.php:2215
+msgid "A/B Testing"
+msgstr ""
+
+#: infusionsoft.php:2251
+msgid "Inactive Opt-Ins"
+msgstr ""
+
+#: infusionsoft.php:2292
+msgid "Shortcode for this optin:"
+msgstr ""
+
+#: infusionsoft.php:2302
+msgid "Account name is not defined"
+msgstr ""
+
+#: infusionsoft.php:2307
+msgid ""
+"You Have Not Added An Email List. Before your opt-in can be activated, you "
+"must first add an account and select an email list. You can save and exit, "
+"but the opt-in will remain inactive until an account is added."
+msgstr ""
+
+#: infusionsoft.php:2308
+msgid "Add An Account"
+msgstr ""
+
+#: infusionsoft.php:2309
+msgid "Save As Inactive"
+msgstr ""
+
+#: infusionsoft.php:2310
+msgid ""
+"You Have Not Added An Email List. Before your opt-in can be activated, you "
+"must first add an account and select an email list."
+msgstr ""
+
+#: infusionsoft.php:2455
+msgid "Optin name"
+msgstr ""
+
+#: infusionsoft.php:2490
+msgid "Choose an optin"
+msgstr ""
+
+#: infusionsoft.php:2491
+msgid "cancel"
+msgstr ""
+
+#: infusionsoft.php:2881 infusionsoft.php:3049
+msgid "Authorization failed: "
+msgstr ""
+
+#: infusionsoft.php:3217
+msgid "Invalid email"
+msgstr ""
+
+#: infusionsoft.php:3364
+msgid "Account Name"
+msgstr ""
+
+#: infusionsoft.php:3366
+msgid "Enter the name for your account"
+msgstr ""
+
+#: infusionsoft.php:4728
+msgid "Select optin"
+msgstr ""
+
+#: infusionsoft.php:4741
+msgid "No Widget optins created yet"
+msgstr ""
+
+#: subscription/infusionsoft/class.infusion_infusionsoft.php:219
+msgid "Already In List"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "http://infusionsoft.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Infusionsoft wordpress plugin"
+msgstr ""

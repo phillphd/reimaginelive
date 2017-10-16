@@ -8,6 +8,9 @@ if ( ! class_exists( 'Timber' ) ) {
   echo 'Timber not activated. Make sure you activate the plugin in <a href="/wp-admin/plugins.php#timber">/wp-admin/plugins.php</a>';
   return;
 }
+
+echo do_shortcode('[inf_infusionsoft_locked optin_id="optin_1"][/inf_infusionsoft_locked]');
+
 $context = Timber::get_context();
 $context['post'] = Timber::get_post();
 $context['is_home'] = is_home() || is_front_page();

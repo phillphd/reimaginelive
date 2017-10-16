@@ -1,0 +1,101 @@
+
+/*------------------------------------------------*/
+/*-------------------[RapidBar]-----------------*/
+/*------------------------------------------------*/
+.current_optin_type_infusionbar .inf_infusionsoft_hide_for_infusionbar { display: none; }
+.current_optin_type_infusionbar .inf_infusionsoft_infusionbar.inf_only_option { display: block; }
+.inf_dashboard_type_infusionbar:before {
+    content: "\e65a";
+    -webkit-transform: rotate(-180deg);
+    /* Firefox */
+    -moz-transform: rotate(-180deg);
+    /* IE */
+    -ms-transform: rotate(-180deg);
+    /* Opera */
+    -o-transform: rotate(-180deg);
+    /* Internet Explorer */
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=6);
+}
+
+.inf_dashboard_for_infusionbar{
+    display:block !important;
+}
+
+/*------------Marketing Page-------------------*/
+.current_tab_inf_dashboard_tab_content_header_support{
+    padding: 0 !important;
+}
+
+.newsletter_email{
+    height:40px;
+    width: 200px;
+    background:#f3f5f8 !important;
+    border: none;
+}
+
+.newsletter_email::-webkit-input-placeholder{
+    font-size:14px;
+    margin-left:10px;
+    color:#939aaa;
+}
+
+.newsletter_email:-moz-placeholder{
+    font-size:14px;
+    margin-left:10px;
+    color:#939aaa;
+}
+
+.newsletter_email::-moz-placeholder {
+    font-size:14px;
+    margin-left:10px;
+    color:#939aaa;
+}
+
+.newsletter_email:-ms-input-placeholder{
+    font-size:14px;
+    margin-left:10px;
+    color:#939aaa;
+}
+
+.newsletter_submit_button{
+    font-family: 'Proxima Nova', 'Open Sans', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    background: #ff5e6e;
+    text-decoration: none;
+    padding: 10px 0;
+    color: #fff;
+    text-align: center;
+    border-radius:23px;
+    margin-top:10px;
+    font-size:14px;
+    display: block;
+    width:200px;
+    cursor: pointer !important;
+}
+
+.newsletter_submit_button:hover{
+    color: #fff;
+    background: #BD404D;
+}
+
+.ui-dialog{
+    background: transparent !important;
+
+}
+
+.loader{
+    display:none;
+    margin-left:10px;
+}
+
+.error{
+    color:red !important;
+    display: none;
+}
+
+@media screen and (max-width: 1250px) {
+    .infusionsoft_marketing_main > div{
+        width: auto !important;
+    }
+}
