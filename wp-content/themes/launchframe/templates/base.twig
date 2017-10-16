@@ -1,0 +1,82 @@
+{% block html_head_container %}
+
+{% include 'html-header.twig' %}
+	{% block head %}
+	{% endblock %}
+	</head>
+{% endblock %}
+
+	<body class="{{body_class}}" data-template="base.twig">
+		<header class="site-header">
+			<div class="diagonal-stripes"></div>
+			<div class="site-header__logo">
+				{% include '/assets/src/img/logo.svg' %}
+			</div>
+		</header>
+
+		<main class="site-main">
+			{% if title %}<h1>{{title}}</h1>{% endif %}
+      		<section class="primary-content">
+				{% block content %}
+					Sorry, no content
+				{% endblock %}
+      		</section>
+			{% if sidebar %}
+				<aside class="layout-sidebar">
+					{{sidebar}}
+				</aside>
+			{% endif %}
+		</main>
+
+		{# <div class="the-wall">
+			<div class="the-wall__of-ice">
+				<h2>Enter your email to view the livestream</h2>
+				<form class="infusion-form" accept-charset="UTF-8" action="https://hy289.infusionsoft.com/app/form/process/e6f2808f6c816251d2c1a2672941ebe0" method="POST">
+					<input name="inf_form_xid" type="hidden" value="e6f2808f6c816251d2c1a2672941ebe0"><br>
+					<input name="inf_form_name" type="hidden" value="NoahUniversity.com"><br>
+					<input name="infusionsoft_version" type="hidden" value="1.48.0.48">
+					<input id="inf_field_Email" class="infusion-field-input-container the-wall__email" name="inf_field_Email" type="text" placeholder="My Email Address Is...">
+					<input class="the-wall__submit" type="submit" value="Watch Now">
+				</form>
+			</div>
+		</div> #}
+
+		{% block footer %}
+			{{ function('wp_footer') }}
+		{% endblock %}
+	</body>
+
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+		ga('create', 'UA-99991746-1', 'auto');
+		ga('send', 'pageview');
+
+		var tag = document.createElement('script');
+		tag.src = "//www.youtube.com/player_api";
+		var firstScriptTag = document.getElementsByTagName('script')[0];
+		firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+		var player;
+
+		function onYouTubePlayerAPIReady() {
+		  	player = new YT.Player('livestream', {
+		    	events: {
+		      		'onReady': onPlayerReady
+		    	}
+		  	});
+		}
+
+		function onPlayerReady(event) {
+		  	// bind events
+		  	var playButton = document.getElementById("play-button");
+		  	playButton.addEventListener("click", function() {
+		  		$("body").addClass("active-livestream");
+		    	player.playVideo();
+		  	});
+		}
+	</script>
+</html>

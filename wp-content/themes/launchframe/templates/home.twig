@@ -1,0 +1,144 @@
+{% extends "base.twig" %}
+
+{% block content %}
+
+<section class="embed-container">
+	<iframe src="https://www.youtube.com/embed/UvGvQmG2jsE?rel=0&enablejsapi=1" id="livestream" frameborder="0" allowfullscreen></iframe>
+	<div id="play-button" class="embed-container__overlay" style="background-image: url('{{ theme.link }}/assets/src/img/placeholder.jpg');">
+		<i class="embed-container__play fa fa-play-circle" aria-hidden="true"></i>
+	</div>
+</section>
+
+<section class="fluid-container schedule-wrapper">
+	<div class="row">
+		<div class="col-md-12">
+			<h2 class="vm-xs-bottom-0">Reimagine Conference <span>Livestream</span></h2>
+			<ul class="social-list">
+				<li><a target="_blank" href="https://twitter.com/intent/tweet?text=Reimagine+Conference&url=https%3A%2F%2Flive.reimagineconference.com&via=reimagineconf"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
+				<li><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Flive.reimagineconference.com"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+				<li><a target="_blank" href="https://plus.google.com/share?url=https%3A%2F%2Flive.reimagineconference.com"><i class="fa fa-google-plus-square" aria-hidden="true"></i></a></li>
+				<li><a target="_blank" href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Flive.reimagineconference.com&title=Reimagine+Conference&summary=Join+the+ReImagine+Conference+-+Live+from+Costa+Mesa%2C+California.&source=https%3A%2F%2Flive.reimagineconference.com"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+				<li><a target="_blank" href="http://www.reddit.com/submit?url=https%3A%2F%2Flive.reimagineconference.com&title=Reimagine+Conference"><i class="fa fa-reddit-square" aria-hidden="true"></i></a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="row vm-xs-top-2">
+		<div class="col-md-8 col-lg-7">
+			<p class="display">Over the course of three days you will learn how to optimize your talents, cultivate your creativity and gain strategies for purposeful living. Not only will you improve your technical skill, but you will also learn to control your fear and tap into the underlying passions that drive your creativity. </p>
+		</div>
+	</div>
+</section>
+
+<section class="fluid-container">
+	<div class="nu-banner" style="background-image: url('');"></div>
+</section>
+
+<section class="fluid-container schedule-wrapper">
+	<h2>The <span>Schedule</span></h2>
+				
+	<h3 class="schedule__title">Thursday</h3>
+		<ul class="schedule">
+		<li><div class="schedule__time">1:00pm</div> Session 1: The Vital Signs of Life and Business: How to Discover your Purpose and Passion in your Work and Creativity (Noah Elias)</li>
+		<li><div class="schedule__time">2:00pm</div> Session 2: The Business of Risk (Jessi Green)</li>
+		<li><div class="schedule__time">3:00pm</div> Break</li>
+		<li><div class="schedule__time">3:30pm</div> Session 3: What to do when the Passion Fades (Brandon Elrod)</li>
+		<li><div class="schedule__time">4:30pm</div> Break</li>
+		<li><div class="schedule__time">5:00pm</div> Session 4: Community to Family (Mike Jones)</li>
+		<li><div class="schedule__time">6:00pm</div> Day Concludes</li>
+	</ul>
+	
+	<h3 class="schedule__title">Friday</h3>
+    <ul class="schedule">	
+		<li><div class="schedule__time">9:30am</div> Session 5: Integrity, Passion, Success and a Dash of Reality (Carl McKay)</li>
+		<li><div class="schedule__time">10:30am</div> Session 6: TBD (Angie Callen &amp; Matthew Taylor)</li>
+		<li><div class="schedule__time">11:30am</div> Lunch Break</li>
+		<li><div class="schedule__time">1:30pm</div> Session 7: TBD (Arik Ehle)</li>
+		<li><div class="schedule__time">2:30pm</div> Break</li>
+		<li><div class="schedule__time">3:00pm</div> Session 8: Brutal Honesty (Jerrod Maruyama)</li>
+		<li><div class="schedule__time">4:00pm</div> Session 9: The Art of the Deal: How to Land, Keep and Grow your Customers and Clients (Noah Elias)</li>
+		<li><div class="schedule__time">5:00pm</div> Break</li>
+		<li><div class="schedule__time">5:30pm</div> Session 10: Unlimited Revisions (Lenny Terenzi)</li>
+		<li><div class="schedule__time">6:30pm</div> Conference Concludes</li>
+	</ul>
+
+	<h3 class="schedule__title">Saturday</h3>
+	<ul class="schedule">
+		<li><div class="schedule__time">7:30am</div> Special Bonus Session</li>
+		<li><div class="schedule__time">9:30am</div> Session 11: The Business of Design (Peter Deltondo)</li>
+		<li><div class="schedule__time">10:30am</div> Session 12: Growing Roses in your Pile of $#%t (Nicole Monteduro)</li>
+		<li><div class="schedule__time">11:30am</div> Lunch Break</li>
+		<li><div class="schedule__time">1:30pm</div> Session 13: Lessons Learned From Conversations with over 200 Creatives (Andrew Sale)</li>
+		<li><div class="schedule__time">2:30pm</div> Session 14: Q&amp;A with Attendees</li>
+		<li><div class="schedule__time">3:30pm</div> Break</li>
+		<li><div class="schedule__time">4:00pm</div> Session 15: The Business of Partnerships: the Good, the Bad, and the Ugly (Noah Elias)</li>
+		<li><div class="schedule__time">5:00pm</div> Closing Remarks</li>
+		<li><div class="schedule__time">5:30pm</div> Conference Concludes</li>
+		<li><div class="schedule__time">7:00pm</div> Family Reunion at The Artistry House</li>
+	</ul>
+</section>
+
+<section class="vm-xs-top-3" style="overflow-x: hidden;">
+	<div class="sponsors-wrap" style="background-image: url('{{ theme.link }}/assets/src/img/hero.png');">
+		<div class="row">
+			<div class="col-md-12">
+				<ul class="sponsors">
+					<li>
+						<a href="https://www.thebakoery.com/" target="_blank">
+							<img src="{{ theme.link }}/assets/src/img/sponsor/logo-tb.png">
+						</a>
+					</li>
+					<li>
+						<a href="https://www.easybizstart.com/" target="_blank">
+							<img src="{{ theme.link }}/assets/src/img/sponsor/logo-ebs.png">
+						</a>
+					</li>
+					<li>
+						<a href="http://mof1podcast.com/" target="_blank">
+							<img src="{{ theme.link }}/assets/src/img/sponsor/logo-mof1.png">
+						</a>
+					</li>
+					<li>
+						<a href="https://www.moo.com/us/" target="_blank">
+							<img src="{{ theme.link }}/assets/src/img/sponsor/logo-moo.png">
+						</a>
+					</li>
+					<li>
+						<a href="http://noahfineart.com/store/" target="_blank">
+							<img src="{{ theme.link }}/assets/src/img/sponsor/logo-nfa.png">
+						</a>
+					</li>
+					<li>
+						<a href="http://noahuniversity.com/" target="_blank">
+							<img src="{{ theme.link }}/assets/src/img/sponsor/logo-nu.png">
+						</a>
+					</li>
+					<li>
+						<a href="http://oldtownroasting.com/" target="_blank">
+							<img src="{{ theme.link }}/assets/src/img/sponsor/logo-otr.png">
+						</a>
+					</li>
+					<li>
+						<a href="http://www.premiere-seals.com/" target="_blank">
+							<img src="{{ theme.link }}/assets/src/img/sponsor/logo-ps.png">
+						</a>
+					</li>
+					<li>
+						<a href="https://www.stickermule.com/uses/laptop-stickers/" target="_blank">
+							<img src="{{ theme.link }}/assets/src/img/sponsor/logo-sm.png">
+						</a>
+					</li>
+					<li>
+						<a href="http://whiteboard.is/" target="_blank">
+							<img src="{{ theme.link }}/assets/src/img/sponsor/logo-wb.png">
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="site-footer">
+			{% include 'footer.twig' %}
+		</div>
+	</div>
+</section>
+
+{% endblock %}
