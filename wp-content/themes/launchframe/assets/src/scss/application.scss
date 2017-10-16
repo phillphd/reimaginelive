@@ -468,7 +468,7 @@ section {
     }
 }
 
-.inf_infusionsoft .inf_infusionsoft_locked_container {
+.inf_infusionsoft .inf_infusionsoft_locked_form {
     position: fixed;
     top: 0;
     left: 0;
@@ -486,7 +486,7 @@ section {
         padding: 0;
         background-color: transparent;
     }
-    .inf_infusionsoft_locked_form {
+    .inf_infusionsoft_inline_form.inf_infusionsoft_optin {
         position: absolute;
         top: 50%;
         left: 50%;

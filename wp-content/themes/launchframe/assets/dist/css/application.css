@@ -6011,7 +6011,7 @@ section {
   color: #EF6222;
 }
 
-.inf_infusionsoft .inf_infusionsoft_locked_container {
+.inf_infusionsoft .inf_infusionsoft_locked_form {
   position: fixed;
   top: 0;
   left: 0;
@@ -6023,17 +6023,17 @@ section {
   content: "";
 }
 
-.inf_infusionsoft .inf_infusionsoft_locked_container .inf_infusionsoft_form_header,
-.inf_infusionsoft .inf_infusionsoft_locked_container .inf_infusionsoft_form_text {
+.inf_infusionsoft .inf_infusionsoft_locked_form .inf_infusionsoft_form_header,
+.inf_infusionsoft .inf_infusionsoft_locked_form .inf_infusionsoft_form_text {
   padding: 0;
 }
 
-.inf_infusionsoft .inf_infusionsoft_locked_container .inf_infusionsoft_form_content {
+.inf_infusionsoft .inf_infusionsoft_locked_form .inf_infusionsoft_form_content {
   padding: 0;
   background-color: transparent;
 }
 
-.inf_infusionsoft .inf_infusionsoft_locked_container .inf_infusionsoft_locked_form {
+.inf_infusionsoft .inf_infusionsoft_locked_form .inf_infusionsoft_inline_form.inf_infusionsoft_optin {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -6046,7 +6046,7 @@ section {
   transform: translate(-50%, -50%);
 }
 
-.inf_infusionsoft .inf_infusionsoft_locked_container .inf_infusionsoft_subscribe_email {
+.inf_infusionsoft .inf_infusionsoft_locked_form .inf_infusionsoft_subscribe_email {
   position: absolute;
   top: 0;
   left: 0;
@@ -6059,13 +6059,13 @@ section {
   border: 4px solid #ADDC03;
 }
 
-.inf_infusionsoft .inf_infusionsoft_locked_container .inf_infusionsoft_subscribe_email input {
+.inf_infusionsoft .inf_infusionsoft_locked_form .inf_infusionsoft_subscribe_email input {
   width: 100%;
   height: 100%;
   padding: 0 12px;
 }
 
-.inf_infusionsoft .inf_infusionsoft_locked_container .inf_infusionsoft_submit_subscription {
+.inf_infusionsoft .inf_infusionsoft_locked_form .inf_infusionsoft_submit_subscription {
   position: absolute;
   top: 0;
   right: 0;
@@ -6075,21 +6075,21 @@ section {
   border: 4px solid #ADDC03;
 }
 
-.inf_infusionsoft .inf_infusionsoft_locked_container .inf_infusionsoft_submit_subscription .inf_infusionsoft_button_text {
+.inf_infusionsoft .inf_infusionsoft_locked_form .inf_infusionsoft_submit_subscription .inf_infusionsoft_button_text {
   font-family: "neutra_display";
   font-weight: 600;
   color: #FFF;
   text-transform: uppercase;
 }
 
-.inf_infusionsoft .inf_infusionsoft_locked_container form {
+.inf_infusionsoft .inf_infusionsoft_locked_form form {
   position: relative;
   width: 100%;
   height: 60px;
   margin-bottom: 0;
 }
 
-.inf_infusionsoft .inf_infusionsoft_locked_container h2 {
+.inf_infusionsoft .inf_infusionsoft_locked_form h2 {
   color: #ADDC03;
 }
 
