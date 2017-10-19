@@ -6189,6 +6189,32 @@ section {
   color: #ADDC03;
 }
 
+.footer-social-list {
+  position: relative;
+  z-index: 999;
+  display: block;
+  padding: 0;
+  margin: 2px 0 0;
+  font-size: 1rem;
+  list-style-type: none;
+  text-align: center;
+}
+
+.footer-social-list li {
+  display: inline;
+  margin: 0 8px;
+}
+
+.footer-social-list a {
+  color: #FFF;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+.footer-social-list a:hover {
+  color: #ADDC03;
+}
+
 @media (min-width: 576px) {
   .container {
     padding-right: 15px;

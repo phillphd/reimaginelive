@@ -1,6 +1,6 @@
 <?php
 
 global $package_version;
-$package_version = '2017-10-17T03:53:39.227Z';
+$package_version = '2017-10-19T15:54:04.923Z';
 
 ?>

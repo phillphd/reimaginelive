@@ -636,3 +636,25 @@ section {
         color: $brand-primary;
     }
 }
+
+.footer-social-list {
+    position: relative;
+    z-index: 999;
+    display: block;
+    padding: 0;
+    margin: 2px 0 0;
+    font-size: 1rem;
+    list-style-type: none;
+    text-align: center;
+    li {
+        display: inline;
+        margin: 0 8px;
+    }
+    a {
+        color: #FFF;
+        transition: .2s;
+        &:hover {
+            color: $brand-primary;
+        }
+    }
+}
